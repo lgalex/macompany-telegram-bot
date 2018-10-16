@@ -1,0 +1,95 @@
+body {
+	margin: 50px auto;
+	padding: 0;
+	width: 100%;
+	font-family: Arial;
+	font-size: 15px;
+	background: #F5F5F5;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+.admin-panel {
+	background: #ecf5fa;
+	width: 470px;
+	margin: auto;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid #eaeaea;
+}
+
+.item {
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+.item:last-child {
+	margin-bottom: 0px;
+}
+
+.item .a {
+	display: inline-block;
+	width: 300px;
+}
+
+.item .b {
+	display: inline-block;
+	width: 126px;
+	margin-left: 15px;
+}
+
+input[type="text"], input[type="number"], input[type="password"], input[type="email"] {
+	width: 210px;
+	float: right;
+}
+
+.tld {
+	margin-left: 98px;
+}
+
+.pages_index {
+	margin-left: 80px;
+}
+
+.pi {
+	margin-right: 5px;
+}
+
+.sbl {
+	margin-left: 25px;
+}
+
+.go {
+	padding: 8px;
+	background: #00b05a;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+}
+
+footer {
+	bottom: 10px;
+	right: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+}
+
+ul {
+	border-bottom: 1px solid #000;
+	padding-bottom: 15px;
+}
+
+ul:last-child {
+	border-bottom: 0px;
+	padding-bottom: 0;
+}
+
+li {
+	margin-bottom: 4px;
+}
